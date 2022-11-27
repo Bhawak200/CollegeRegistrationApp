@@ -1,0 +1,8 @@
+// when file is not created
+handle=fopen(path,mode);
+fwrite(handle,data);
+fclose(handle);
+echo data;
+
+// when file is already created;
+simply get the data;

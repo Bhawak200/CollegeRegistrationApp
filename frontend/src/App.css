@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.bg {
+  width: 100%;
+  height: 200vh;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.alluser-table,
+.adduser {
+  margin: 10% auto;
+}
+
+.headings {
+  text-align: center;
+  color: rgba(49, 49, 224, 0.688)
+}
+
+.rounded-t-5 {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .rounded-tr-lg-0 {
+    border-top-right-radius: 0;
+  }
+
+  .rounded-bl-lg-5 {
+    border-bottom-left-radius: 0.5rem;
+  }
+}
