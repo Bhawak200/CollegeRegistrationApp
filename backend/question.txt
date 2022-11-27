@@ -1,0 +1,8 @@
+/* static */
+
+Router::connect("/",["controller" => "test","action" =>"index"]);
+
+/* scope */
+Router::scope('/', function ($routes) {
+   $routes -> connect('/', ['controller' => 'Test', 'action' => 'index']);
+});
